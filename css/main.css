@@ -108,13 +108,14 @@ p {
   font-weight: bold;
 }
 /*quote button*/
-.quote {
+.button {
   display: inline-flex;
   float: right;
   font-size: 18px;
   padding: 0 35px;
+  white-space: nowrap;
 }
-.quote-input {
+.quote {
   font-size: inherit;
   border: 1px solid #FE7E01;
   border-radius: 0;
@@ -128,22 +129,13 @@ p {
   color: #FFFFFF;
   font-family: 'Quicksand', sans-serif;
 }
-.quote-input:hover {
+button:hover {
   cursor: pointer;
   border: 1px solid #7ACAC5;
 }
-input.quote-input {
-  padding: 0 20px;
-  text-align: center;
-}
 /*casestudies button*/
+
 .casestudies {
-  display: inline-flex;
-  float: right;
-  font-size: 18px;
-  padding: 0 35px;
-}
-.casestudies-input {
   font-size: inherit;
   border: 1px solid #7ACAC6;
   border-radius: 0;
@@ -154,15 +146,12 @@ input.quote-input {
   top: 65%;
   right: 50%;
   margin-right: -350px;
+  color: #FFFFFF;
   font-family: 'Quicksand', sans-serif;
 }
-.casestudies-input:hover {
+button:hover {
   cursor: pointer;
   border: 1px solid #FE7E00;
-}
-input.casestudies-input {
-  padding: 0 20px;
-  text-align: center;
 }
 .footerbreak {
   position: fixed;
